@@ -25,7 +25,7 @@ const HomePage = () => {
   ];
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen pb-5 bg-bgGray">
+    <div className="flex flex-col items-center justify-center min-h-screen pb-5 bg-bgGray w-full">
       <Head>
         <title>Nail Salon</title>
         <link rel="icon" href="/favicon.ico" />
@@ -48,13 +48,26 @@ const HomePage = () => {
 
         {/* Location and contact information */}
         <div className="mb-8">
-          <h2 className="text-3xl font-bold text-gray-800">Location</h2>
-          <ul className="mt-4 text-gray-600">
-            <li>{STORE_LOCATION.address}</li>
-            <li>{STORE_LOCATION.city}</li>
-            <li>{STORE_LOCATION.state}</li>
-            <li>{STORE_LOCATION.zip}</li>
-          </ul>
+          <div>
+            <h2 className="text-3xl font-bold text-gray-800">Location</h2>
+            <ul className="mt-4 text-gray-600">
+              <li>{STORE_LOCATION.address}</li>
+              <li>{STORE_LOCATION.city}</li>
+              <li>{STORE_LOCATION.state}</li>
+              <li>{STORE_LOCATION.zip}</li>
+            </ul>
+          </div>
+          <div className="flex justify-center mt-4">
+            <div className="">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d53027.89725651058!2d-118.30968313117125!3d33.8318285!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dd351b95d10fc7%3A0xce4ed9b0c3fa92aa!2sNail%20Shop!5e0!3m2!1sen!2sus!4v1687216266175!5m2!1sen!2sus"
+                width="100%"
+                height="100%"
+                allowfullscreen=""
+                loading="lazy"
+              ></iframe>
+            </div>
+          </div>
         </div>
 
         <div>
