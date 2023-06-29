@@ -76,6 +76,11 @@ const HomePage = () => {
             Phone: {STORE_CONTACT.phone}
             <br />
             Email: {STORE_CONTACT.email}
+            <br />
+            Instagram:{" "}
+            <a href="https://www.instagram.com/nailssbylvurv/" className="hover:text-purple-400">
+              @nailssbylvurv
+            </a>
           </p>
         </div>
       </div>

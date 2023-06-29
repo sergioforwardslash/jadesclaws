@@ -15,9 +15,9 @@ const Navbar = () => {
       {/* Logo */}
       <div className="flex items-center">
         <Link href="/" className="flex items-center space-x-2">
-          <img src="/logo.png" alt="Logo" className="h-6" />
+          <img src="/images/logo.png" alt="Logo" className="w-[145px]" />
           <span className="text-lg font-semibold text-gray-800">
-            {STORE_NAME}
+            {/* {STORE_NAME} */}
           </span>
         </Link>
       </div>
@@ -74,6 +74,9 @@ const Navbar = () => {
         <Link href="/services" className="text-gray-600 hover:text-gray-800">
           Services
         </Link>
+        <Link href="/policy" className="text-gray-600 hover:text-gray-800 block">
+            Policy
+        </Link>
       </div>
 
       {/* Mobile Dropdown Menu */}
@@ -87,6 +90,9 @@ const Navbar = () => {
           </Link>
           <Link href="/services" className="text-gray-600 hover:text-gray-800 block">
             Services
+          </Link>
+          <Link href="/policy" className="text-gray-600 hover:text-gray-800 block">
+            Policy
           </Link>
         </div>
       )}

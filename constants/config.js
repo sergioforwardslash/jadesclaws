@@ -6,12 +6,16 @@ export const STORE_NAME = 'Nail Salon'
 
 export const STORE_LOCATION = {
     address: '1234 Main St',
-    city: 'Carson',
-    state: 'CA',
-    zip: '90745',
+    city: 'Chicago',
+    state: 'IL',
+    zip: '60601',
 }
 
 export const STORE_CONTACT = {
     phone: '(123) 456-7890',
     email: 'info@nailsalon.com',
+}
+
+export const STORE_SOCIAL = {
+    instagram: 'https://www.instagram.com/nailssbylvurv/',
 }

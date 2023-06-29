@@ -6,24 +6,24 @@ import Skeleton from 'react-loading-skeleton';
 
 const services = [
   {
-    title: 'Manicure',
-    description: 'Our expert nail technicians provide professional manicure services to keep your nails healthy and stylish. Whether you prefer a classic manicure or something more creative, we have got you covered.',
-    image: '/images/manicure.png',
-  },
-  {
-    title: 'Pedicure',
-    description: 'Treat your feet to a relaxing pedicure in our serene salon environment. Our pedicure services help rejuvenate your tired feet and leave them feeling refreshed. Choose from a variety of options to suit your needs.',
-    image: '/images/pedicure.webp',
+    title: 'Acrylic Nails',
+    description: 'Enhance your nails with our high-quality acrylic nail services. Our skilled technicians will create custom acrylic nail extensions that are durable, natural-looking, and perfectly suited to your style. Say hello to stunning nails!',
+    image: '/images/acrylic-nail.png',
   },
   {
     title: 'Gel Nails',
     description: 'Get long-lasting, beautiful nails with our gel nail services. Our skilled technicians use high-quality gel products to create stunning and durable nail enhancements. Say goodbye to chipped polish!',
-    image: '/images/gel-nails.jpg',
+    image: '/images/gel-nails.png',
   },
   {
     title: 'Nail Art',
     description: 'Express your creativity with our unique and intricate nail art designs. From simple patterns to intricate hand-painted masterpieces, our talented nail artists can turn your nails into a canvas of art.',
-    image: '/images/nailart.jpg',
+    image: '/images/nail-art.png',
+  },
+  {
+    title: 'Soak Off',
+    description: 'If you need to remove your current gel or acrylic nails, our soak-off service is perfect for you. Our gentle and precise soak-off process ensures your nails are properly taken care of, leaving them ready for a fresh set.',
+    image: '/images/soak-off.png',
   },
 ];
 
