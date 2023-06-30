@@ -26,16 +26,17 @@ const Policy = () => {
             standard rates:
           </p>
           <ul className="list-disc pl-6">
-            <li className="mb-1">Set Starts at: $55*</li>
-            <li className="mb-1">New Clients: $25 Deposit**</li>
-            <li className="mb-1">Regulars: $15 Deposit**</li>
+            <li className="mb-1">Short/Med Acrylic Full Set w/Tips: $85</li>
+            <li className="mb-1">Long Acrylic Full Set w/Tips: $115</li>
+            <li className="mb-1">Dry Manicure (Rubber Base Polish w/Design Included): $40</li>
+            <li className="mb-1">Acrylic Removal: $25</li>
             {/* Add more services and prices as needed */}
           </ul>
           <p className="text-sm mt-2">
-            *Prices may vary depending on the length and design of your nails.
+            *These services come with any design of your choosing (as long as it fits within your 3hr appointment time)
           </p>
           <p className="text-sm mt-2">
-            **Deposits are non-refundable and will be applied to your total
+            **$20 Deposits are non-refundable and will be applied to your total
           </p>
         </div>
 

@@ -11,7 +11,7 @@ const Navbar = () => {
     setIsMobileMenuOpen((prevState) => !prevState);
   };
   return (
-    <nav className="flex items-center justify-between h-16 px-8 bg-white shadow-md">
+    <nav className="flex items-center justify-between h-20 px-8 bg-white shadow-md">
       {/* Logo */}
       <div className="flex items-center">
         <Link href="/" className="flex items-center space-x-2">
