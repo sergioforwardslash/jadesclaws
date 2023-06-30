@@ -6,9 +6,9 @@ export const STORE_NAME = 'Nail Salon'
 
 export const STORE_LOCATION = {
     address: '1234 Main St',
-    city: 'Chicago',
-    state: 'IL',
-    zip: '60601',
+    city: 'Visalia',
+    state: 'CA',
+    zip: '93277',
 }
 
 export const STORE_CONTACT = {
@@ -17,5 +17,5 @@ export const STORE_CONTACT = {
 }
 
 export const STORE_SOCIAL = {
-    instagram: 'https://www.instagram.com/nailssbylvurv/',
+    instagram: 'https://www.instagram.com/jadesclaws/',
 }
