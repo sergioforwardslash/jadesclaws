@@ -8,17 +8,17 @@ const services = [
   {
     title: 'Acrylic Nails',
     description: 'Enhance your nails with our high-quality acrylic nail services. Our skilled technicians will create custom acrylic nail extensions that are durable, natural-looking, and perfectly suited to your style. Say hello to stunning nails!',
-    image: '/images/acrylic.png',
+    image: '/images/acrylic-nail.png',
   },
   {
     title: 'Gel Nails',
     description: 'Get long-lasting, beautiful nails with our gel nail services. Our skilled technicians use high-quality gel products to create stunning and durable nail enhancements. Say goodbye to chipped polish!',
-    image: '/images/gel.png',
+    image: '/images/gel-nails.png',
   },
   {
     title: 'Nail Art',
     description: 'Express your creativity with our unique and intricate nail art designs. From simple patterns to intricate hand-painted masterpieces, our talented nail artists can turn your nails into a canvas of art.',
-    image: '/images/nailart.png',
+    image: '/images/nail-art.png',
   },
   {
     title: 'Soak Off',

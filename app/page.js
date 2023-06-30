@@ -1,6 +1,6 @@
 import Head from "next/head";
 import ScrollingBanner from "@/components/ScrollingBanner";
-import { STORE_CONTACT, STORE_LOCATION, STORE_NAME, STORE_SOCIAL } from "@/constants/config";
+import { STORE_CONTACT, STORE_LOCATION, STORE_NAME } from "@/constants/config";
 
 const HomePage = () => {
   const bannerImages = [
@@ -78,8 +78,8 @@ const HomePage = () => {
             Email: {STORE_CONTACT.email}
             <br />
             Instagram:{" "}
-            <a href={STORE_SOCIAL.instagram} className="hover:text-purple-400">
-              @jadesclaws
+            <a href="https://www.instagram.com/nailssbylvurv/" className="hover:text-purple-400">
+              @nailssbylvurv
             </a>
           </p>
         </div>
